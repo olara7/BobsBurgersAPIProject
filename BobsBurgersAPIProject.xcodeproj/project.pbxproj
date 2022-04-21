@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBAEB804280FA9CF00720098 /* BobsBurgersAPIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB803280FA9CF00720098 /* BobsBurgersAPIProjectApp.swift */; };
+		CBAEB806280FA9CF00720098 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB805280FA9CF00720098 /* ContentView.swift */; };
+		CBAEB808280FA9D000720098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAEB807280FA9D000720098 /* Assets.xcassets */; };
+		CBAEB80B280FA9D000720098 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAEB80A280FA9D000720098 /* Preview Assets.xcassets */; };
+		CBAEB815280FA9D000720098 /* BobsBurgersAPIProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB814280FA9D000720098 /* BobsBurgersAPIProjectTests.swift */; };
+		CBAEB81F280FA9D000720098 /* BobsBurgersAPIProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB81E280FA9D000720098 /* BobsBurgersAPIProjectUITests.swift */; };
+		CBAEB821280FA9D000720098 /* BobsBurgersAPIProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB820280FA9D000720098 /* BobsBurgersAPIProjectUITestsLaunchTests.swift */; };
+		CBAEB831280FAA4E00720098 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB830280FAA4E00720098 /* Character.swift */; };
+		CBAEB833280FAB2500720098 /* CharacterFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB832280FAB2500720098 /* CharacterFetcher.swift */; };
+		CBAEB835280FABD800720098 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB834280FABD800720098 /* APIService.swift */; };
+		CBAEB837280FAC0300720098 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB836280FAC0300720098 /* APIError.swift */; };
+		CBAEB839280FAD1F00720098 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB838280FAD1F00720098 /* CharacterListView.swift */; };
+		CBAEB83D280FAD3C00720098 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB83C280FAD3C00720098 /* ErrorView.swift */; };
+		CBAEB83F280FAD4C00720098 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAEB83E280FAD4C00720098 /* LoadingView.swift */; };
+		CBC4808F280FDECD004FF368 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4808E280FDECD004FF368 /* CharacterRow.swift */; };
+		CBC48091280FE25C004FF368 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC48090280FE25C004FF368 /* CharacterDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBAEB811280FA9D000720098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBAEB7F8280FA9CF00720098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBAEB7FF280FA9CF00720098;
+			remoteInfo = BobsBurgersAPIProject;
+		};
+		CBAEB81B280FA9D000720098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBAEB7F8280FA9CF00720098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBAEB7FF280FA9CF00720098;
+			remoteInfo = BobsBurgersAPIProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBAEB800280FA9CF00720098 /* BobsBurgersAPIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BobsBurgersAPIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAEB803280FA9CF00720098 /* BobsBurgersAPIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobsBurgersAPIProjectApp.swift; sourceTree = "<group>"; };
+		CBAEB805280FA9CF00720098 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBAEB807280FA9D000720098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBAEB80A280FA9D000720098 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBAEB810280FA9D000720098 /* BobsBurgersAPIProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobsBurgersAPIProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAEB814280FA9D000720098 /* BobsBurgersAPIProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobsBurgersAPIProjectTests.swift; sourceTree = "<group>"; };
+		CBAEB81A280FA9D000720098 /* BobsBurgersAPIProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobsBurgersAPIProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAEB81E280FA9D000720098 /* BobsBurgersAPIProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobsBurgersAPIProjectUITests.swift; sourceTree = "<group>"; };
+		CBAEB820280FA9D000720098 /* BobsBurgersAPIProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobsBurgersAPIProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBAEB830280FAA4E00720098 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CBAEB832280FAB2500720098 /* CharacterFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterFetcher.swift; sourceTree = "<group>"; };
+		CBAEB834280FABD800720098 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CBAEB836280FAC0300720098 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		CBAEB838280FAD1F00720098 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		CBAEB83C280FAD3C00720098 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		CBAEB83E280FAD4C00720098 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CBC4808E280FDECD004FF368 /* CharacterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
+		CBC48090280FE25C004FF368 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBAEB7FD280FA9CF00720098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAEB80D280FA9D000720098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAEB817280FA9D000720098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBAEB7F7280FA9CF00720098 = {
+			isa = PBXGroup;
+			children = (
+				CBAEB802280FA9CF00720098 /* BobsBurgersAPIProject */,
+				CBAEB813280FA9D000720098 /* BobsBurgersAPIProjectTests */,
+				CBAEB81D280FA9D000720098 /* BobsBurgersAPIProjectUITests */,
+				CBAEB801280FA9CF00720098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBAEB801280FA9CF00720098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBAEB800280FA9CF00720098 /* BobsBurgersAPIProject.app */,
+				CBAEB810280FA9D000720098 /* BobsBurgersAPIProjectTests.xctest */,
+				CBAEB81A280FA9D000720098 /* BobsBurgersAPIProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBAEB802280FA9CF00720098 /* BobsBurgersAPIProject */ = {
+			isa = PBXGroup;
+			children = (
+				CBAEB803280FA9CF00720098 /* BobsBurgersAPIProjectApp.swift */,
+				CBAEB805280FA9CF00720098 /* ContentView.swift */,
+				CBAEB82D280FA9F800720098 /* view */,
+				CBAEB82E280FA9FE00720098 /* networking */,
+				CBAEB82F280FAA2C00720098 /* model */,
+				CBAEB807280FA9D000720098 /* Assets.xcassets */,
+				CBAEB809280FA9D000720098 /* Preview Content */,
+			);
+			path = BobsBurgersAPIProject;
+			sourceTree = "<group>";
+		};
+		CBAEB809280FA9D000720098 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBAEB80A280FA9D000720098 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBAEB813280FA9D000720098 /* BobsBurgersAPIProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBAEB814280FA9D000720098 /* BobsBurgersAPIProjectTests.swift */,
+			);
+			path = BobsBurgersAPIProjectTests;
+			sourceTree = "<group>";
+		};
+		CBAEB81D280FA9D000720098 /* BobsBurgersAPIProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBAEB81E280FA9D000720098 /* BobsBurgersAPIProjectUITests.swift */,
+				CBAEB820280FA9D000720098 /* BobsBurgersAPIProjectUITestsLaunchTests.swift */,
+			);
+			path = BobsBurgersAPIProjectUITests;
+			sourceTree = "<group>";
+		};
+		CBAEB82D280FA9F800720098 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CBAEB838280FAD1F00720098 /* CharacterListView.swift */,
+				CBAEB83C280FAD3C00720098 /* ErrorView.swift */,
+				CBAEB83E280FAD4C00720098 /* LoadingView.swift */,
+				CBC4808E280FDECD004FF368 /* CharacterRow.swift */,
+				CBC48090280FE25C004FF368 /* CharacterDetailView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CBAEB82E280FA9FE00720098 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				CBAEB832280FAB2500720098 /* CharacterFetcher.swift */,
+				CBAEB834280FABD800720098 /* APIService.swift */,
+				CBAEB836280FAC0300720098 /* APIError.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		CBAEB82F280FAA2C00720098 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CBAEB830280FAA4E00720098 /* Character.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBAEB7FF280FA9CF00720098 /* BobsBurgersAPIProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAEB824280FA9D000720098 /* Build configuration list for PBXNativeTarget "BobsBurgersAPIProject" */;
+			buildPhases = (
+				CBAEB7FC280FA9CF00720098 /* Sources */,
+				CBAEB7FD280FA9CF00720098 /* Frameworks */,
+				CBAEB7FE280FA9CF00720098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BobsBurgersAPIProject;
+			productName = BobsBurgersAPIProject;
+			productReference = CBAEB800280FA9CF00720098 /* BobsBurgersAPIProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBAEB80F280FA9D000720098 /* BobsBurgersAPIProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAEB827280FA9D000720098 /* Build configuration list for PBXNativeTarget "BobsBurgersAPIProjectTests" */;
+			buildPhases = (
+				CBAEB80C280FA9D000720098 /* Sources */,
+				CBAEB80D280FA9D000720098 /* Frameworks */,
+				CBAEB80E280FA9D000720098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBAEB812280FA9D000720098 /* PBXTargetDependency */,
+			);
+			name = BobsBurgersAPIProjectTests;
+			productName = BobsBurgersAPIProjectTests;
+			productReference = CBAEB810280FA9D000720098 /* BobsBurgersAPIProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBAEB819280FA9D000720098 /* BobsBurgersAPIProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAEB82A280FA9D000720098 /* Build configuration list for PBXNativeTarget "BobsBurgersAPIProjectUITests" */;
+			buildPhases = (
+				CBAEB816280FA9D000720098 /* Sources */,
+				CBAEB817280FA9D000720098 /* Frameworks */,
+				CBAEB818280FA9D000720098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBAEB81C280FA9D000720098 /* PBXTargetDependency */,
+			);
+			name = BobsBurgersAPIProjectUITests;
+			productName = BobsBurgersAPIProjectUITests;
+			productReference = CBAEB81A280FA9D000720098 /* BobsBurgersAPIProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBAEB7F8280FA9CF00720098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CBAEB7FF280FA9CF00720098 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CBAEB80F280FA9D000720098 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CBAEB7FF280FA9CF00720098;
+					};
+					CBAEB819280FA9D000720098 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CBAEB7FF280FA9CF00720098;
+					};
+				};
+			};
+			buildConfigurationList = CBAEB7FB280FA9CF00720098 /* Build configuration list for PBXProject "BobsBurgersAPIProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBAEB7F7280FA9CF00720098;
+			productRefGroup = CBAEB801280FA9CF00720098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBAEB7FF280FA9CF00720098 /* BobsBurgersAPIProject */,
+				CBAEB80F280FA9D000720098 /* BobsBurgersAPIProjectTests */,
+				CBAEB819280FA9D000720098 /* BobsBurgersAPIProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBAEB7FE280FA9CF00720098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAEB80B280FA9D000720098 /* Preview Assets.xcassets in Resources */,
+				CBAEB808280FA9D000720098 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAEB80E280FA9D000720098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAEB818280FA9D000720098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBAEB7FC280FA9CF00720098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC4808F280FDECD004FF368 /* CharacterRow.swift in Sources */,
+				CBC48091280FE25C004FF368 /* CharacterDetailView.swift in Sources */,
+				CBAEB831280FAA4E00720098 /* Character.swift in Sources */,
+				CBAEB835280FABD800720098 /* APIService.swift in Sources */,
+				CBAEB839280FAD1F00720098 /* CharacterListView.swift in Sources */,
+				CBAEB806280FA9CF00720098 /* ContentView.swift in Sources */,
+				CBAEB804280FA9CF00720098 /* BobsBurgersAPIProjectApp.swift in Sources */,
+				CBAEB833280FAB2500720098 /* CharacterFetcher.swift in Sources */,
+				CBAEB837280FAC0300720098 /* APIError.swift in Sources */,
+				CBAEB83D280FAD3C00720098 /* ErrorView.swift in Sources */,
+				CBAEB83F280FAD4C00720098 /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAEB80C280FA9D000720098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAEB815280FA9D000720098 /* BobsBurgersAPIProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAEB816280FA9D000720098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAEB821280FA9D000720098 /* BobsBurgersAPIProjectUITestsLaunchTests.swift in Sources */,
+				CBAEB81F280FA9D000720098 /* BobsBurgersAPIProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBAEB812280FA9D000720098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBAEB7FF280FA9CF00720098 /* BobsBurgersAPIProject */;
+			targetProxy = CBAEB811280FA9D000720098 /* PBXContainerItemProxy */;
+		};
+		CBAEB81C280FA9D000720098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBAEB7FF280FA9CF00720098 /* BobsBurgersAPIProject */;
+			targetProxy = CBAEB81B280FA9D000720098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CBAEB822280FA9D000720098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBAEB823280FA9D000720098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBAEB825280FA9D000720098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BobsBurgersAPIProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NHZK289K7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarlara.BobsBurgersAPIProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBAEB826280FA9D000720098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BobsBurgersAPIProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NHZK289K7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarlara.BobsBurgersAPIProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBAEB828280FA9D000720098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NHZK289K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarlara.BobsBurgersAPIProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BobsBurgersAPIProject.app/BobsBurgersAPIProject";
+			};
+			name = Debug;
+		};
+		CBAEB829280FA9D000720098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NHZK289K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarlara.BobsBurgersAPIProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BobsBurgersAPIProject.app/BobsBurgersAPIProject";
+			};
+			name = Release;
+		};
+		CBAEB82B280FA9D000720098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NHZK289K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarlara.BobsBurgersAPIProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BobsBurgersAPIProject;
+			};
+			name = Debug;
+		};
+		CBAEB82C280FA9D000720098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NHZK289K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscarlara.BobsBurgersAPIProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BobsBurgersAPIProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBAEB7FB280FA9CF00720098 /* Build configuration list for PBXProject "BobsBurgersAPIProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAEB822280FA9D000720098 /* Debug */,
+				CBAEB823280FA9D000720098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBAEB824280FA9D000720098 /* Build configuration list for PBXNativeTarget "BobsBurgersAPIProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAEB825280FA9D000720098 /* Debug */,
+				CBAEB826280FA9D000720098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBAEB827280FA9D000720098 /* Build configuration list for PBXNativeTarget "BobsBurgersAPIProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAEB828280FA9D000720098 /* Debug */,
+				CBAEB829280FA9D000720098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBAEB82A280FA9D000720098 /* Build configuration list for PBXNativeTarget "BobsBurgersAPIProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAEB82B280FA9D000720098 /* Debug */,
+				CBAEB82C280FA9D000720098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBAEB7F8280FA9CF00720098 /* Project object */;
+}
